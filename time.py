@@ -1,6 +1,7 @@
-import datetime
+import datetime, time
 print ("The represented date is : ")
-print (datetime.date(1997,4,1))
 print(
-    datetime.datetime.fromtimestamp(1503312054).strftime('%Y-%m-%d %H:%M:%S')
+    datetime.datetime.fromtimestamp(int("1284101485")).strftime('%Y-%m-%d %H:%M:%S')
 )
+local_time = time.localtime(int("1284101485"))
+print(time.strftime("%Y-%m-%d %H:%M:%S", local_time))
