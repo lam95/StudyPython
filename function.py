@@ -7,4 +7,6 @@ def checkDivisibility(a, b):
     else:
         print "a is not divisible by b"
 #Driver program to test the above function
-checkDivisibility(4, 2)
+a = raw_input("Enter a: ")
+b = raw_input("Enter b: ")
+checkDivisibility(int(a), int(b))
